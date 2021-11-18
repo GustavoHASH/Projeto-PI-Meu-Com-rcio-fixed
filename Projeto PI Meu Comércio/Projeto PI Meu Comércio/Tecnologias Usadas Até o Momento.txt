@@ -1,0 +1,7 @@
+Tecnologias Usada Até o Momento :
+/*
+     1. Bootstrap
+     2. jQuery
+     3. Slick
+     4. CSS
+/*

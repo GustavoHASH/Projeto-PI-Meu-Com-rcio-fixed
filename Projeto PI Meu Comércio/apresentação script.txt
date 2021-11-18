@@ -1,0 +1,76 @@
+19,39x3 = 58,17 atacado
+24,00x3 = 72,00 preço normal
+
+	  14,00 de lucro
+
+
+
+
+1º slide: Boa noite. Meu nome é Camila, sou a líder do grupo 
+Ruby e hoje estou aqui pra apresentar nosso projeto
+chamado de "Meu Comércio". Vou começar falando um sobre
+o que é exatamente o nosso projeto.
+
+2º slide: Sabemos que existem diversos pequenos negócios
+em cada bairro existente no mundo, como quitandas,
+lojinhas com vendas de mercearia, etc. Vou citar um exemplo
+aqui pra vocês: moradores de bairro sempre se dirigiam à 
+esses pequenos negócios com intuito
+de comprar algo que tenham esquecido na despesa do mês, ao invés
+de voltar ao mercado, com o pensamento de "porque eu vou ao
+mercado, que é mais longe, sendo que na quitanda na esquina da 
+rua onde eu moro é o mesmo valor?"
+E com o inicio da Pandemia Covid-19, alguns desses pequenos negócios 
+decaíram pois as pessoas começaram a optar por comprar em mercados
+online pra evitar a exposição ao vírus e alguns desses pequenos
+negócios acabaram fechando devido à falta de venda. 
+Por esse motivo, decidimos criar esse software que auxilia esses
+pequenos negócios a terem a mesma competitividade de tecnologia 
+e vendas com os comércios grandes, também com o intuito de terem
+demandas de compras e conseguirem entregar a demanda sem
+um gasto maior do que o necessário, e por fim, um maior alcance
+de pessoas, inclusive de bairros próximos, assim facilitando a
+venda.
+
+3º slide: Com isso, vou listar alguns benefícios que consideramos importantes
+tanto pro comerciante quanto pro cliente. 
+No caso do nosso lojista:
+- Ele possui facilidade na venda pois com poucos cliques, o cliente já
+consegue comprar o que deseja e como havia citado anteriormente,
+na internet você sempre consegue alcançar mais pessoas do que imagina.
+- Existe a diminuição de custos pois não há necessidade de contratação
+de muitos funcionários.
+- E também incluímos como renda extra, pois antes do software existir,
+o pequeno negócio acabava obtendo menor quantidade de vendas pois somente
+pessoas que moram próximo se dirigiam até o mesmo, mas com a criação
+do software os mesmos possuem uma renda maior devido ao benefício de maior
+alcance, conforme citado anteriormente.
+
+No caso do nosso cliente:
+- Ele consegue ter a otimização do tempo, pois não precisa se locomover
+até o local pra realizar uma compra, assim realizando a compra em minutos
+e sobrando o tempo que levaria pra se locomover, podendo ser utilizado
+para realizar tarefas pessoais e importantes.
+- Com certeza a facilidade na compra entra no que falei antes, com minutos
+você consegue comprar algo que deseja, sem exigir esforço de forma alguma.
+- Como também citado anteriormente sobre as lojas terem um alcance maior,
+o usuário consegue visualizar lojas de bairros próximos, assim podendo 
+comparar os valores e comprar onde é cabível no bolso.
+
+
+4º slide: Consideramos nosso projeto inovador pois nele implementamos
+o maior alcance para vendas, como falado diversas vezes anteriormente,
+e um maior custo benefício pois você vendedor, consegue vender mais e 
+ter um gasto menor, e pra você cliente, consegue comprar o que necessita
+sem gastar muito do seu tempo. 
+Os valores são acessíveis porque batem com o preço do mercado, considerando
+que os vendedores comprem produtos em atacados. 
+Em grandes comércios como mercados, você possui um limite mínimo de compra
+pra conseguir finalizar seu carrinho, caso contrário a taxa de entrega não 
+é tão acessível. E no nosso software basta comprar apenas produtos desejados, 
+sem taxa de frete alta que cause dúvida na hora de finalizar a compra.
+E deixei por último, mas é o mais importante. O nosso software é exclusivo para
+os pequenos negócios dos bairros. Por exemplo, nos aplicativos de delivery, é fácil
+notar que grandes mercados e restaurantes estão sempre em alta, deixando
+com que os menores comércios cadastrados fiquem sempre abaixo.
+

@@ -1,0 +1,331 @@
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Meu Comércio</title>
+
+  <!-- Google font -->
+  <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	  <!-- Google font Orbitron ! talvez use futuramente quem sabe gostei dessa fonte-->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+  <!-- Slick -->
+  <link type="text/css" rel="stylesheet" href="css/slick.css" />
+  <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+  <!-- nouislider -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.0.0/nouislider.min.css" />
+
+  <!-- Font Awesome Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <link type="text/css" rel="stylesheet" href="css/style.css" />
+
+
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <!-- header -->
+    <div id="header">
+      <div class="container">
+        <div class="pull-left">
+          <!-- Logo -->
+          <div class="header-logo">
+            <a class="logo" href="#">
+              <img src="C:\Users\gustavo\Desktop\Projeto PI Meu Comércio fixed\Projeto PI Meu Comércio\imagens\3.jfif" alt="">
+            </a>
+          </div>
+          <!-- /Logo -->
+
+          <!-- Search -->
+          <div class="header-search">
+            <form>
+              <input class="input search-input" type="text" placeholder="Busque pelo seu produto mais rápido.">
+              <select class="input search-categories">
+                <option value="0">Todos</option>
+                <option value="1">Mercearia</option>
+                <option value="2">Padaria</option>
+                <option value="3">Adega</option>
+              </select>
+              <button class="search-btn"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+          <!-- /Search -->
+        </div>
+        <div class="pull-right">
+          <ul class="header-btns">
+
+            <li class="header-account dropdown default-dropdown">
+              <div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+                <div class="header-btns-icon">
+                  <i class="fa fa-user-o"></i>
+                </div>
+                <strong class="text-uppercase"> Minha Conta <i class="fa fa-caret-down"></i></strong>
+              </div>
+              <a href="#" class="text-uppercase">Não tenho cadastro.</a>
+              <ul class="custom-menu">
+                <li><a href="login-vendedor.html"><i class="fa fa-user-o"></i> Sou Vendedor</a></li>
+                <li><a href="login-cliente.html"><i class="fa fa-heart-o"></i> Sou Cliente</a></li>
+              </ul>
+            </li>
+
+            <li class="nav-toggle">
+              <button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+            </li>
+
+          </ul>
+        </div>
+      </div>
+      <!-- header -->
+    </div>
+  </header>
+  <!-- /HEADER -->
+
+  <!-- NAVIGATION -->
+  <div id="navigation">
+    <!-- container -->
+    <div class="container">
+      <div id="responsive-nav">
+        <!-- category nav -->
+        <div class="category-nav">
+          <span class="category-header"> Categorias <i class="fa fa-list"></i></span>
+          <ul class="category-list">
+            <li class="dropdown side-dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"> Mercearia <i class="fa fa-angle-right"></i></a>
+              <div class="custom-menu">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul class="list-links">
+                      <li>
+                        <h3 class="list-links-title">Categorias</h3>
+                      </li>
+                      <li><a href="#">Açucar</a></li>
+                      <li><a href="#">Bebidas</a></li>
+                      <li><a href="#">Café</a></li>
+                      <li><a href="#">Confeitaria</a></li>
+                      <li><a href="#">Conservas</a></li>
+                      <li><a href="#">Farináceos</a></li>
+                      <li><a href="#">Gordura e Óleo</a></li>
+                      <li><a href="#">Laticínios</a></li>
+                      <li><a href="#">Massas</a></li>
+                      <li><a href="#">Molhos</a></li>
+                      <li><a href="#">Sachês</a></li>
+                      <li><a href="#">Temperos</a></li>
+                      <li><a href="#">Vinagre</a></li>
+                      <li><a href="#">Produtos de Limpeza</a></li>
+                    </ul>
+                    <hr class="hidden-md hidden-lg">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="dropdown side-dropdown">
+              <div class="custom-menu">
+                <div class="row">
+                  <div class="col-md-4">
+                    <hr class="hidden-md hidden-lg">
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li class="dropdown side-dropdown">
+              <div class="custom-menu">
+                <div class="row">
+                  <div class="col-md-4">
+                    <ul class="list-links">
+                      <li>
+                        <h3 class="list-links-title">Categories</h3>
+                      </li>
+                      <li><a href="#">Cachorros</a></li>
+                      <li><a href="#">Gatos</a></li>
+                      <li><a href="#">Peixes e Animais Aquáticos</a></li>
+                      <li><a href="#">Passáros</a></li>
+                      <li><a href="#">Roedores e Pequenos Animais</a></li>
+                    </ul>
+
+
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li><a href="#">Padaria</a></li>
+            <li><a href="#">Adega</a></li>
+            <li><a href="menu.html">Ver Tudo</a></li>
+          </ul>
+        </div>
+        <!-- /category nav -->
+
+        <!--  menu de navegação or menu nav -->
+        <div class="menu-nav">
+          <span class="menu-header"> Menu <i class="fa fa-bars"></i></span>
+          <ul class="menu-list">
+            <li><a href="index.html">Página Inicial </a></li>
+            <li><a href="ofertas.html">Ofertas do Dia</a></li>
+            </li>
+            <li><a href="#">Vale-Presentes</a></li>
+
+              </ul>
+            </li>
+          </ul>
+        </div>
+        <!-- menu nav -->
+      </div>
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /NAVIGATION -->
+
+  <!-- HOME -->
+  <div id="home">
+    <!-- container -->
+    <div class="container">
+      <!-- home wrap -->
+      <div class="home-wrap">
+        <!-- home slick -->
+        <div id="home-slick">
+          <!-- banner -->
+          <div class="banner banner-1">
+            <img src="C:\Users\gustavo\Desktop\Projeto PI Meu Comércio fixed\Projeto PI Meu Comércio\imagens\2.jfif" alt="">
+            <div class="banner-caption text-center">
+              <br><br><br><br><br><br>
+              <button class="primary-btn">Compre Já</button>
+            </div>
+          </div>
+          <!-- /banner -->
+
+          <!-- banner -->
+          <div class="banner banner-1">
+            <img src="C:\Users\gustavo\Desktop\Projeto PI Meu Comércio fixed\Projeto PI Meu Comércio\imagens\1.jfif" alt="">
+            <div class="banner-caption">
+              <br><br><br><br><br><br>
+              <button class="primary-btn">Compre Já</button>
+            </div>
+          </div>
+          <!-- /banner -->
+
+        </div>
+        <!-- /home slick -->
+      </div>
+      <!-- /home wrap -->
+    </div>
+    <!-- /container -->
+  </div>
+  <!-- /HOME -->
+
+
+
+  <!-- Footer=Cabeçalho -->
+  <footer id="footer" class="section section-grey">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- footer widget -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+
+            <div class="footer-logo">
+              <a class="logo" href="#">
+                <img src="https://i.ibb.co/FzY595S/pagina-da-frente.jpg" alt="">
+              </a>
+            </div>
+
+            <p><font size="3" face="Arial">
+					   Um E-Commerce Para Você
+ 						</font></p>
+
+            <!-- redes sociais -->
+            <ul class="footer-social">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+            <!-- /redes sociais -->
+          </div>
+        </div>
+
+        <!-- widget de rodapé -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-header">Conheça-nos</h3>
+            <ul class="list-links">
+              <li><a href="#">Sobre Nós</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Carreiras</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- /widget de rodapé -->
+
+        <div class="clearfix visible-sm visible-xs"></div>
+
+        <!-- widget de rodapé 2-->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-header">Deixe-nos ajudá-lo</h3>
+            <ul class="list-links">
+							<li><a href="#">Seus Pedidos</a></li>
+							<li><a href="#">Frete e Prazo de Entrega</a></li>
+							<li><a href="#">Anuncie Seus Produtos</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- /widget de rodapé 2 -->
+
+        <!-- widget subscribe -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-header">Inscreva-se</h3>
+            <p> Quer receber promoções com a sua cara?</p>
+            <form>
+              <div class="form-group">
+	                <input class="input" placeholder="Insira seu E-mail">
+              </div>
+              <button class="primary-btn">Assinar nossa Newslatter</button>
+            </form>
+          </div>
+        </div>
+        <!-- /widget subscribe -->
+      </div>
+      <!-- /row -->
+      <hr>
+      <!-- row -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+
+          <div class="footer-copyright">
+            Copyright &copy;<script>
+              document.write(new Date().getFullYear());
+            </script> Todos os Direitos Reservados | Alunos & FAM </div>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </footer>
+  <!-- /FOOTER -->
+
+  <!-- jQuery Plugins -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.0.0/nouislider.min.css"></script>
+  <script src="js/jquery.zoom.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

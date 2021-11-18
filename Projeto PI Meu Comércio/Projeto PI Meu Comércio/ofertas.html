@@ -1,0 +1,492 @@
+<html lang="pt-br">
+
+    <head>
+      <meta charset="utf-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+      <title>Meu Comércio</title>
+
+
+      <!-- Google font -->
+      <link href="https://fonts.googleapis.com/css?family=Hind:400,700" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+          <!-- Google font Orbitron ! talvez use futuramente quem sabe gostei dessa fonte-->
+      <link href="https://fonts.googleapis.com/css2?family=Orbitron&display=swap" rel="stylesheet">
+         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+      <!-- Bootstrap -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+      <!-- Slick -->
+      <link type="text/css" rel="stylesheet" href="css/slick.css" />
+      <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+      <!-- nouislider -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.0.0/nouislider.min.css" />
+
+      <!-- Font Awesome Icon -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+      <link type="text/css" rel="stylesheet" href="css/style.css" />
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+    </head>
+
+    <body>
+      <!-- HEADER -->
+      <header>
+        <!-- header -->
+        <div id="header">
+          <div class="container">
+            <div class="pull-left">
+              <!-- Logo -->
+              <div class="header-logo">
+                <a class="logo" href="#">
+                  <img src= "C:\Users\gustavo\Desktop\Projeto PI Meu Comércio fixed\Projeto PI Meu Comércio\imagens\3.jfif" alt="">
+                </a>
+              </div>
+              <!-- /Logo -->
+
+              <!-- Search -->
+              <div class="header-search">
+                <form>
+                  <input class="input search-input" type="text" placeholder="Busque pelo seu produto mais rápido.">
+                  <select class="input search-categories">
+                    <option value="0">Todos</option>
+                    <option value="1">Mercearia</option>
+                    <option value="2">Padaria</option>
+                    <option value="3">Adega</option>
+                  </select>
+                  <button class="search-btn"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+              <!-- /Search -->
+            </div>
+            <div class="pull-right">
+              <ul class="header-btns">
+
+                <li class="header-account dropdown default-dropdown">
+                  <div class="dropdown-toggle" role="button" data-toggle="dropdown" aria-expanded="true">
+                    <div class="header-btns-icon">
+                      <i class="fa fa-user-o"></i>
+                    </div>
+                    <strong class="text-uppercase"> Minha Conta <i class="fa fa-caret-down"></i></strong>
+                  </div>
+                  <a href="#" class="text-uppercase">Não tenho cadastro.</a>
+                  <ul class="custom-menu">
+                    <li><a href="login-vendedor.html"><i class="fa fa-user-o"></i> Sou Vendedor</a></li>
+                    <li><a href="login-cliente.html"><i class="fa fa-heart-o"></i> Sou Cliente</a></li>
+                          </ul>
+                </li>
+
+                <li class="nav-toggle">
+                  <button class="nav-toggle-btn main-btn icon-btn"><i class="fa fa-bars"></i></button>
+                </li>
+
+              </ul>
+            </div>
+          </div>
+          <!-- header -->
+        </div>
+      </header>
+      <!-- /HEADER -->
+
+      <!-- NAVIGATION -->
+      <div id="navigation">
+        <!-- container -->
+        <div class="container">
+          <div id="responsive-nav">
+            <!-- category nav -->
+            <div class="category-nav">
+              <span class="category-header">Categorias <i class="fa fa-list"></i></span>
+              <ul class="category-list">
+                <li class="dropdown side-dropdown">
+                  <a class="dropdown-toggle" data-toggle="dropdown" aria-expanded="true"> Mercearia <i class="fa fa-angle-right"></i></a>
+                  <div class="custom-menu">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <ul class="list-links">
+                          <li>
+                            <h3 class="list-links-title">Categorias</h3>
+                          </li>
+                          <li><a href="#">Açucar</a></li>
+                          <li><a href="#">Bebidas</a></li>
+                          <li><a href="#">Café</a></li>
+                          <li><a href="#">Confeitaria</a></li>
+                          <li><a href="#">Conservas</a></li>
+                          <li><a href="#">Farináceos</a></li>
+                          <li><a href="#">Gordura e Óleo</a></li>
+                          <li><a href="#">Laticínios</a></li>
+                          <li><a href="#">Massas</a></li>
+                          <li><a href="#">Molhos</a></li>
+                          <li><a href="#">Sachês</a></li>
+                          <li><a href="#">Temperos</a></li>
+                          <li><a href="#">Vinagre</a></li>
+                          <li><a href="#">Produtos de Limpeza</a></li>
+                        </ul>
+                        <hr class="hidden-md hidden-lg">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown side-dropdown">
+                  <div class="custom-menu">
+                    <div class="row">
+                      <div class="col-md-4">
+                        <hr class="hidden-md hidden-lg">
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li class="dropdown side-dropdown">
+                  <div class="custom-menu">
+                    <div class="row">
+                      <div class="col-md-4">
+
+
+                      </div>
+                    </div>
+                  </div>
+                </li>
+                <li><a href="#">Padaria</a></li>
+                <li><a href="#">Adega</a></li>
+                <li><a href="menu.html">Ver Tudo</a></li>
+              </ul>
+            </div>
+            <!-- /category nav -->
+
+            <!--  menu de navegação or menu nav -->
+            <div class="menu-nav">
+              <span class="menu-header"> Menu <i class="fa fa-bars"></i></span>
+              <ul class="menu-list">
+                <li><a href="index.html">Página Inicial </a></li>
+                <li><a href="ofertas.html">Ofertas do Dia</a></li>
+                </li>
+                <li><a href="#">Vale-Presentes</a></li>
+
+                  </ul>
+                </li>
+              </ul>
+            </div>
+            <!-- menu nav -->
+          </div>
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /NAVIGATION -->
+
+     <!-- section -->
+      <div class="section">
+        <!-- container -->
+        <div class="container">
+          <!-- row -->
+          <div class="row">
+            <!-- section-title -->
+            <div class="col-md-12">
+              <div class="section-title">
+                <h2 class="title">Ofertas do dia</h2>
+                <div class="pull-right">
+                  <div class="product-slick-dots-1 custom-dots"></div>
+                </div>
+              </div>
+            </div>
+            <!-- /section-title -->
+
+            <!-- banner -->
+            <div class="col-md-3 col-sm-6 col-xs-6">
+              <div class="banner banner-2">
+                <div class="banner-caption">
+                </div>
+              </div>
+            </div>
+            <!-- /banner -->
+            <section class="new-arrivals">
+            <div id="site">
+            	<div class="container">
+            		<div class="title-box">
+                      				</div>
+	<div class="product-bottom text-center">
+
+                  <!-- Product Single -->
+                  <div class="product product-single">
+                    <div class="product-thumb">
+                      <div class="product-label">
+                        <span>Novo Lançamento</span>
+                        <span class="sale">-20% off</span>
+                      </div>
+                      <ul class="product-countdown">
+                        <li><span>00 H</span></li>
+                        <li><span>00 M</span></li>
+                        <li><span>00 S</span></li>
+                      </ul>
+                      <img src="https://www.paodeacucar.com/img/uploads/1/779/529779.jpg" alt="">
+                    </div>
+                    <div class="product-body">
+                      <h3 class="product-price">R$ 17,00 <del class="product-old-price">R$ 23,00</del></h3>
+                      <div class="product-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o empty"></i>
+                      </div>
+                      <h2 class="product-name"><a href="#">Arroz Agulhinha Tipo 1 CAMIL Pacote 5kg</a></h2>
+                      <div class="product-btns">
+                          <div class="product-description" data-name="Arroz" data-price="17">
+                 <form class="add-to-cart" action="cart.html" method="post">
+                  <div>
+
+
+                  <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                  <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> adicionar ao carrinho</button>
+                </form>
+                  <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                  <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+                  </div>
+
+                  <!-- /Product Single -->
+
+                  <!-- Product Single -->
+                  <div class="product product-single">
+                    <div class="product-thumb">
+                      <div class="product-label">
+                        <span class="sale">-20% off</span>
+                      </div>
+                      <ul class="product-countdown">
+                        <li><span>24 H</span></li>
+                        <li><span>00 M</span></li>
+                        <li><span>00 S</span></li>
+                      </ul>
+                      <img src="https://mfresh.s3.amazonaws.com/uploads/product/sku/9264/image/7c87a8a9-d98d-41a2-9041-44ebe704dbc2.jpg" alt="">
+                    </div>
+                    <div class="product-body">
+                      <h3 class="product-price">R$ 14,00 <del class="product-old-price">R$ 18,00</del></h3>
+                      <div class="product-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o empty"></i>
+                      </div>
+                      <h2 class="product-name"><a href="#"> Café Pilão Torrado E Moído Extra Forte Almofada 500g - Café Moído </a></h2>
+                      <div class="product-btns">
+                        <div class="product-description" data-name="Arroz" data-price="17">
+               <form class="add-to-cart" action="cart.html" method="post">
+                <div>
+
+
+                <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> adicionar ao carrinho</button>
+              </form>
+                <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+                </div>
+
+                  <!-- /Product Single -->
+
+                  <!-- Product Single -->
+                  <div class="product product-single">
+                    <div class="product-thumb">
+                      <div class="product-label">
+                        <span>Novo</span>
+                        <span class="sale">-20% off</span>
+                      </div>
+                      <ul class="product-countdown">
+                        <li><span>00 H</span></li>
+                        <li><span>00 M</span></li>
+                        <li><span>00 S</span></li>
+                      </ul>
+                      <img src="https://static.clubeextra.com.br/img/uploads/1/95/627095.jpg" alt="">
+                    </div>
+                    <div class="product-body">
+                      <h3 class="product-price">R$ 5,30 <del class="product-old-price">R$ 7,59</del></h3>
+                      <div class="product-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o empty"></i>
+                      </div>
+                      <h2 class="product-name"><a href="#"> Maionese Hellmanns Tradicional 500g </a></h2>
+                      <div class="product-btns">
+                        <div class="product-description" data-name="Arroz" data-price="17">
+               <form class="add-to-cart" action="cart.html" method="post">
+                <div>
+
+
+                <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> adicionar ao carrinho</button>
+              </form>
+                <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+                </div>
+
+                    </div>
+                  </div>
+                  <!-- /Product Single -->
+
+                  <!-- Product Single -->
+                  <div class="product product-single">
+                    <div class="product-thumb">
+                      <div class="product-label">
+                        <span>Novo</span>
+                        <span class="sale">-20% off</span>
+                      </div>
+                      <ul class="product-countdown">
+                        <li><span>00 H</span></li>
+                        <li><span>00 M</span></li>
+                        <li><span>00 S</span></li>
+                      </ul>
+                      <img src="https://carrefourbr.vtexassets.com/arquivos/ids/15891465/oleo-de-soja-liza-900ml-1.jpg?v=637541734580770000" alt="">
+                    </div>
+                    <div class="product-body">
+                      <h3 class="product-price">R$ 6,29 <del class="product-old-price">R$ 8,39</del></h3>
+                      <div class="product-rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o empty"></i>
+                      </div>
+                      <h2 class="product-name"><a href="#">Óleo de Soja Liza 900ml</a></h2>
+                      <div class="product-btns">
+                        <div class="product-description" data-name="Arroz" data-price="17">
+               <form class="add-to-cart" action="cart.html" method="post">
+                <div>
+
+
+                <input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+                <button class="primary-btn add-to-cart"><i class="fa fa-shopping-cart"></i> adicionar ao carrinho</button>
+              </form>
+                <button class="main-btn icon-btn"><i class="fa fa-heart"></i></button>
+                <button class="main-btn icon-btn"><i class="fa fa-exchange"></i></button>
+                </div>
+
+                    </div>
+                  </div>
+                  <!-- /Product Single -->
+
+
+
+
+
+
+            <!-- /Product Slick -->
+          </div>
+          <!-- /row -->
+
+        </div>
+        <!-- /container -->
+      </div>
+      <!-- /section -->
+
+       <!-- Footer=Cabeçalho -->
+  <footer id="footer" class="section section-grey">
+    <!-- container -->
+    <div class="container">
+      <!-- row -->
+      <div class="row">
+        <!-- footer widget -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+
+            <div class="footer-logo">
+              <a class="logo" href="#">
+                <img src="https://i.ibb.co/FzY595S/pagina-da-frente.jpg" alt="">
+              </a>
+            </div>
+
+            <p><font size="3" face="Arial">
+					   Um E-Commerce Para Você
+ 						</font></p>
+
+            <!-- redes sociais -->
+            <ul class="footer-social">
+              <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+              <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+            </ul>
+            <!-- /redes sociais -->
+          </div>
+        </div>
+
+        <!-- widget de rodapé -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-header">Conheça-nos</h3>
+            <ul class="list-links">
+              <li><a href="#">Sobre Nós</a></li>
+              <li><a href="#">Blog</a></li>
+              <li><a href="#">Carreiras</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- /widget de rodapé -->
+
+        <div class="clearfix visible-sm visible-xs"></div>
+
+        <!-- widget de rodapé 2-->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-header">Deixe-nos ajudá-lo</h3>
+            <ul class="list-links">
+							<li><a href="#">Seus Pedidos</a></li>
+							<li><a href="#">Frete e Prazo de Entrega</a></li>
+							<li><a href="#">Anuncie Seus Produtos</a></li>
+              <li><a href="#">FAQ</a></li>
+            </ul>
+          </div>
+        </div>
+        <!-- /widget de rodapé 2 -->
+
+        <!-- widget subscribe -->
+        <div class="col-md-3 col-sm-6 col-xs-6">
+          <div class="footer">
+            <h3 class="footer-header">Inscreva-se</h3>
+            <p> Quer receber promoções com a sua cara?</p>
+            <form>
+              <div class="form-group">
+	                <input class="input" placeholder="Insira seu E-mail">
+              </div>
+              <button class="primary-btn">Assinar nossa Newslatter</button>
+            </form>
+          </div>
+        </div>
+        <!-- /widget subscribe -->
+      </div>
+      <!-- /row -->
+      <hr>
+      <!-- row -->
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center">
+
+          <div class="footer-copyright">
+            <script>
+              document.write(new Date().getFullYear());
+            </script> Todos os Direitos Reservados | Alunos & FAM </div>
+        </div>
+      </div>
+      <!-- /row -->
+    </div>
+    <!-- /container -->
+  </footer>
+  <!-- /FOOTER -->
+
+  <!-- jQuery Plugins -->
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  <script src="js/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/10.0.0/nouislider.min.css"></script>
+  <script src="js/jquery.zoom.min.js"></script>
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>

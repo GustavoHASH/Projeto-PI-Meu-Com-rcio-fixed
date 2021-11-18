@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Ordem de Pagamento</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+</head>
+
+<body id="checkout-page">
+
+<div id="site">
+	<header id="masthead">
+		<h1></h1>
+	</header>
+	<div id="content">
+		<h1>Informações Para Pagamento</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Quantidade</th>
+					<th scope="col">Preço</th>
+				</tr>
+			  </thead>
+			  <tbody>
+
+			  </tbody>
+			</table>
+		 <div id="pricing">
+
+			<p id="shipping">
+				<strong>Valor do Frete</strong>: <span id="sshipping"></span>
+			</p>
+
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+		 </div>
+
+		 <form action="order.html" method="post" id="checkout-order-form">
+		 	<h2>Suas Informações</h2>
+
+		 	<fieldset id="fieldset-billing">
+		 		<legend>Informações para Fatura</legend>
+		 		<div>
+		 			<label for="name">Nome</label>
+		 			<input type="text" name="name" id="name" data-type="string" data-message="Esse campo não pode estar vazio" />
+		 		</div>
+		 		<div>
+		 			<label for="email">E-mail</label>
+		 			<input type="text" name="email" id="email" data-type="expression" data-message="digite um endereço válido, como @gmail.com" />
+		 		</div>
+		 		<div>
+		 			<label for="city">Cidade </label>
+		 			<input type="text" name="city" id="city" data-type="string" data-message="Esse campo não pode estar vazio" />
+		 		</div>
+		 		<div>
+		 			<label for="address">Logradouro</label>
+		 			<input type="text" name="address" id="address" data-type="string" data-message="Esse campo não pode estar vazio" />
+		 		</div>
+		 		<div>
+		 			<label for="zip">CEP</label>
+		 			<input type="text" name="zip" id="zip" data-type="string" data-message="Esse campo não pode estar vazio" />
+		 		</div>
+		 		<div>
+		 			<label for="country">Estado</label>
+		 			<select name="country" id="country" data-type="string" data-message="Esse campo não pode estar vazio">
+		 				<option value="">Select</option>
+		 				<option value="SP">São Paulo</option>
+		 				<option value="RJ">Rio de Janeiro</option>
+		 			</select>
+		 		</div>
+		 	</fieldset>
+
+		 	<div id="shipping-same"> Informações iguais as da fatura <input type="checkbox" id="same-as-billing" value=""/></div>
+
+		 	<fieldset id="fieldset-shipping">
+
+		 		<legend>Frete</legend>
+
+		 		<div>
+					<label for="sname">Nome</label>
+				<input type="text" name="name" id="sname" data-type="string" data-message="Esse campo não pode estar vazio" />
+			</div>
+			<div>
+				<label for="semail">E-mail</label>
+				<input type="text" name="email" id="semail" data-type="expression" data-message="digite um endereço válido, como @gmail.com" />
+			</div>
+			<div>
+				<label for="scity">Cidade</label>
+				<input type="text" name="city" id="scity" data-type="string" data-message="Esse campo não pode estar vazio" />
+			</div>
+			<div>
+				<label for="saddress">Logradouro</label>
+				<input type="text" name="address" id="saddress" data-type="string" data-message="Esse campo não pode estar vazio" />
+			</div>
+			<div>
+				<label for="szip">CEP</label>
+				<input type="text" name="zip" id="szip" data-type="string" data-message="Esse campo não pode estar vazio" />
+			</div>
+			<div>
+				<label for="Estado">Estado</label>
+				<select name="Estado" id="scountry" data-type="string" data-message="Esse campo não pode estar vazio">
+					<option value="">Select</option>
+					<option value="SP">São Paulo</option>
+					<option value="RJ">Rio de Janeiro</option>
+				</select>
+			</div>
+		</fieldset>
+
+		 	<p><input type="submit" id="submit-order" value="Pagar" class="btn" /></p>
+
+		 </form>
+	</div>
+
+
+
+</div>
+
+<footer id="site-info">
+		FAM & Meu Comércio
+	</footer>
+
+</body>
+</html>
